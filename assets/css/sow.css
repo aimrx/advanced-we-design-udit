@@ -11,10 +11,13 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #d4f2f8;
+  width: 100%;
 }
 
 nav ul {
@@ -68,4 +71,8 @@ li {
 
 main {
   padding-right: 50px;
+}
+
+h2 {
+  font-size: 2rem;
 }
