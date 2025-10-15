@@ -66,7 +66,8 @@ li {
 }
 
 main {
-  padding-right: 50px;
+  padding-right: 6rem;
+  padding-left: 6rem;
 }
 
 h1 {
@@ -110,22 +111,29 @@ nav {
 
 img {
   border-radius: 3%;
-  width: 50%;
+  width: 100%;
+  height: 32%; /* ajusta para que las 3 imágenes llenen el alto total */
+  object-fit: cover; /* recorta para mantener proporción sin deformar */
 }
 
 .column-container {
   display: flex; /* Activa el modelo Flexbox */
-  justify-content: center; /* Centra las columnas horizontalmente */
-  column-gap: 20px; /* Espacio entre las columnas */
-  margin: 20px auto; /* Centra el contenedor en la página */
+  align-items: stretch; /* hace que ambas columnas tengan la misma altura */
+  column-gap: 50px; /* Espacio entre las columnas */
 }
 
 .column-1 {
   flex: 3; /* Ocupa 3 partes del espacio disponible */
   padding: 1rem;
+  box-sizing: border-box;
 }
 
 .column-2 {
   flex: 1; /* Ocupa 1 parte del espacio disponible */
-  padding-left: 1rem;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column; /* apila las imágenes */
+  justify-content: space-between; /* reparte el espacio vertical */
+  box-sizing: border-box;
 }
