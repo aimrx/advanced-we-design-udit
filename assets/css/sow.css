@@ -74,8 +74,12 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #132e67;
+  padding: 150px 0px 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h3 {
@@ -83,8 +87,9 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #132e67;
+  padding-top: 30px;
 }
 
 .dela-gothic-one-regular {
@@ -101,4 +106,26 @@ h2 {
 p,
 nav {
   font-family: "Inter", sans-serif;
+}
+
+img {
+  border-radius: 3%;
+  width: 50%;
+}
+
+.column-container {
+  display: flex; /* Activa el modelo Flexbox */
+  justify-content: center; /* Centra las columnas horizontalmente */
+  column-gap: 20px; /* Espacio entre las columnas */
+  margin: 20px auto; /* Centra el contenedor en la página */
+}
+
+.column-1 {
+  flex: 3; /* Ocupa 3 partes del espacio disponible */
+  padding: 1rem;
+}
+
+.column-2 {
+  flex: 1; /* Ocupa 1 parte del espacio disponible */
+  padding-left: 1rem;
 }
