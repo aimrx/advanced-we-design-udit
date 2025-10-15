@@ -93,6 +93,10 @@ h3 {
   padding-top: 30px;
 }
 
+/* -------------------------------------------------------------
+FONTS
+-------------------------------------------------------------- */
+
 .dela-gothic-one-regular {
   font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
@@ -100,7 +104,8 @@ h3 {
 }
 
 .cover,
-h2 {
+h2,
+h4 {
   font-family: "Dela Gothic One", sans-serif;
 }
 
@@ -108,6 +113,10 @@ p,
 nav {
   font-family: "Inter", sans-serif;
 }
+
+/* -------------------------------------------------------------
+COLUMNS 
+-------------------------------------------------------------- */
 
 .column-2 img {
   border-radius: 3%;
@@ -118,24 +127,59 @@ nav {
 }
 
 .column-container {
-  display: flex; /* Activa el modelo Flexbox */
-  align-items: stretch; /* hace que ambas columnas tengan la misma altura */
+  display: flex;
+  align-items: stretch; /* ambas columnas con la misma altura */
   column-gap: 50px; /* Espacio entre las columnas */
   height: 80vh;
 }
 
 .column-1 {
-  flex: 3; /* Ocupa 3 partes del espacio disponible */
+  flex: 3;
   padding: 1rem;
   box-sizing: border-box;
 }
 
 .column-2 {
-  flex: 1; /* Ocupa 1 parte del espacio disponible */
+  flex: 1;
   padding: 1rem;
   margin-top: 3.5rem;
   display: flex;
   flex-direction: column; /* apila las imágenes */
   justify-content: space-between; /* reparte el espacio vertical */
   box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------
+BOXES 
+-------------------------------------------------------------- */
+.box {
+  border-radius: 3%;
+  background-color: #132e67;
+  padding: 20px;
+  margin: 10px;
+  width: 33.33%;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box p,
+.box h4 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h4 {
+  font-size: 1.6rem;
+}
+
+.box p {
+  font-size: 1rem;
+  padding: 0px 20px 0px 20px;
 }
