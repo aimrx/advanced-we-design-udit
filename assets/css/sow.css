@@ -2,10 +2,6 @@ body {
   background-color: rgb(240, 252, 255);
 }
 
-section {
-  height: 100vh;
-}
-
 header {
   background: #d4f2f8;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -48,6 +44,7 @@ li {
   align-items: center;
   background: #d4f2f8;
   color: #1c1c1c;
+  height: 100vh;
 }
 
 .title {
