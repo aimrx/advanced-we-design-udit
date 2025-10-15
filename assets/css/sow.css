@@ -131,7 +131,7 @@ img {
 .column-2 {
   flex: 1; /* Ocupa 1 parte del espacio disponible */
   padding: 1rem;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
   display: flex;
   flex-direction: column; /* apila las imágenes */
   justify-content: space-between; /* reparte el espacio vertical */
