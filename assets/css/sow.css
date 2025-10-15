@@ -73,16 +73,30 @@ h2 {
   font-size: 2rem;
 }
 
-.bbh-sans-bartle-regular {
-  font-family: "BBH Sans Bartle", sans-serif;
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+.inter-uniquifier > {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .cover {
-  font-family: "BBH Sans Bartle", sans-serif;
+  font-family: "Dela Gothic One", sans-serif;
 }
 
 h1 {
   color: white;
+}
+
+h2,
+h3,
+p,
+nav {
+  font-family: "Inter", sans-serif;
 }
