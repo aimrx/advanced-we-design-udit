@@ -101,8 +101,8 @@ a {
 FONTS
 -------------------------------------------------------------- */
 
-.dela-gothic-one-regular {
-  font-family: "Dela Gothic One", sans-serif;
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -110,7 +110,7 @@ FONTS
 .cover,
 h2,
 h4 {
-  font-family: "Dela Gothic One", sans-serif;
+  font-family: "Special Gothic Expanded One", sans-serif;
 }
 
 p,
@@ -184,6 +184,6 @@ BOXES
 }
 
 .box p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0px 20px 0px 20px;
 }
