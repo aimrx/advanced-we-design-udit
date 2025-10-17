@@ -119,21 +119,21 @@ nav {
 }
 
 /* -------------------------------------------------------------
-COLUMNS 
+INTERACTION - text ¬ images
 -------------------------------------------------------------- */
-
+/*
 .column-2 img {
   border-radius: 3%;
   height: 33.3%;
   width: 100%;
-  height: 32%; /* ajusta para que las 3 imágenes llenen el alto total */
-  object-fit: cover; /* recorta para mantener proporción sin deformar */
+  height: 32%; /* ajusta para que las 3 imágenes llenen el alto total 
+  object-fit: cover; /* recorta para mantener proporción sin deformar 
 }
 
 .column-container {
   display: flex;
-  align-items: stretch; /* ambas columnas con la misma altura */
-  column-gap: 50px; /* Espacio entre las columnas */
+  align-items: stretch; /* ambas columnas con la misma altura 
+  column-gap: 50px; /* Espacio entre las columnas 
   height: 80vh;
 }
 
@@ -148,9 +148,51 @@ COLUMNS
   padding: 1rem;
   margin-top: 3.5rem;
   display: flex;
-  flex-direction: column; /* apila las imágenes */
-  justify-content: space-between; /* reparte el espacio vertical */
+  flex-direction: column; /* apila las imágenes 
+  justify-content: space-between; /* reparte el espacio vertical 
   box-sizing: border-box;
+}
+*/
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+  margin: 0px;
+}
+
+.column-1,
+.column-2 {
+  width: 100%;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 3.5rem;
+}
+
+.column-2 img {
+  width: 80%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+@media (min-width: 800px) {
+  .column-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .column-1 {
+    width: 58.33%;
+  }
+
+  .column-2 {
+    width: 41.66%;
+  }
 }
 
 /* -------------------------------------------------------------
