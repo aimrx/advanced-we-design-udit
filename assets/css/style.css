@@ -142,3 +142,8 @@ select:focus {
 .skip-link:focus {
   top: 6px;
 }
+
+@import "types.css";
+p {
+  font-family: "OCR-A";
+}
