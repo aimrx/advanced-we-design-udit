@@ -1,3 +1,5 @@
+/* SOW */
+
 body {
   background-color: white;
 }
@@ -90,7 +92,8 @@ h3 {
   font-style: normal;
   font-size: 1.3rem;
   color: #132e67;
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 a {
@@ -111,11 +114,14 @@ FONTS
 h2,
 h4 {
   font-family: "Special Gothic Expanded One", sans-serif;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 p,
 nav {
   font-family: "Inter", sans-serif;
+  line-height: 1.5;
 }
 
 /* -------------------------------------------------------------
@@ -168,7 +174,7 @@ BOXES
 .box {
   border-radius: 3%;
   background-color: #132e67;
-  padding: 20px;
+  padding: 50px;
   margin: 10px;
   width: 33.33%;
 }
