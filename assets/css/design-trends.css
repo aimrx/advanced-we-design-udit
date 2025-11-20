@@ -228,6 +228,47 @@ body {
   font-size: 0.9rem;
 }
 
+/* pelota que salta */
+.box-bounce {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #fa709a, #fee140);
+  border-radius: 50%;
+  animation: bounce 2s infinite;
+  margin-top: 50px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-15px);
+  }
+}
+
+.demo-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ----------------------------------------------------------------------------
+---------------------------------------------------------------------------- */
+
 @media (max-width: 768px) {
   .parallax-bg,
   .normal-bg {
